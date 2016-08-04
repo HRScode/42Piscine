@@ -1,0 +1,1 @@
+LANG=C echo $(( $(date +%s) - $(date -d "$(curl -s --head bomb.txt 2>&1 | awk -F'0621: ' '/^1:/{print $2}')" +%s) ))

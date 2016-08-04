@@ -1,0 +1,27 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_list.h                                          :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tharris <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/07/27 13:09:02 by tharris           #+#    #+#             */
+/*   Updated: 2016/07/27 13:09:03 by tharris          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#ifndef FT_LIST.H
+# define FT_LIST.H
+
+typedef struct			s_list;
+{
+	struct		s_list 	*next;
+	void				*data;
+
+}t_list;	ft_list_push_back(t_list **begin_list, void *data);
+
+#endif
+
+
+
+

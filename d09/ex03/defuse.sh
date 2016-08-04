@@ -1,0 +1,1 @@
+stats -s bomb.txt | cut -c112- | rev | cut -c104- | rev
