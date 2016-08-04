@@ -1,0 +1,43 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_print_alphabet.c                                :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: tharris <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/07/14 10:14:10 by tharris           #+#    #+#             */
+/*   Updated: 2016/07/14 10:14:15 by tharris          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
+
+
+#include <unistd.h>
+
+void ft_putchar(char c)
+{ 
+
+  write(1,&c,1);
+
+}
+
+void ft_print_alphabet()
+{ 
+
+  char letter = 'a';
+  while (letter <= 'z')
+    
+    {
+      ft_putchar(letter);
+      letter++;
+    }
+}
+
+int main()
+{
+  
+ ft_print_alphabet();
+  return(0);
+
+}

@@ -1,0 +1,1 @@
+ldapsearch uid=travis | grep "dn" | cut -c5-
